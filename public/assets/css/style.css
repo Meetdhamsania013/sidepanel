@@ -417,7 +417,11 @@ a {
 
 @media screen and (max-width: 1024px) {
   #wrapper .sidebar {
-    left: -260px; }
+    left: -260px;
+  width: 260px !important; }
+  .layout-fullwidth #wrapper .sidebar .nav{
+    display: inline !important;
+  }
   #wrapper .main {
     width: 100%; }
   #wrapper .navbar {
