@@ -517,7 +517,7 @@ html.fullscreen-bg {
     display: none;
   }
 
-  .layout-fullwidth #wrapper .sidebar:hover{
+  /* .layout-fullwidth #wrapper .sidebar:hover{
     width: 260px;
   }
 
@@ -527,9 +527,8 @@ html.fullscreen-bg {
 
   nav{
     position: relative;
-    top: 0px;
-    padding-top: 70px;
-  }
+    top: 70px;
+  } */
 
   /*
   .layout-fullwidth #wrapper .sidebar{
