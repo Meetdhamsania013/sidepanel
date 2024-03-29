@@ -45,85 +45,97 @@ class Profile extends Component {
                       <div className="profile-info">
                         <h4 className="heading mb10">Basic Info</h4>
 
-						<div className="two_column mb10">
-								<div className="info_label">Birthdate</div>
-								<div  className="info_value">28/02/1991</div>
-						</div>
-
-						<div className="two_column mb10">
-								<div className="info_label">Mobile</div>
-								<div  className="info_value">(124) 823409234</div>
-						</div>
-
-						<div className="two_column mb10">
-								<div className="info_label">Email</div>
-								<div  className="info_value">samuel@mydomain.co</div>
-						</div>
-
-						<div className="two_column mb10">
-								<div className="info_label">Website</div>
-								<div  className="info_value">www.testweb.com</div>
-						</div>
-
-                      <div className="profile-info no_pad">
-                        <h4 className="heading">About</h4>
-                        <p>
-                          Interactively fashion excellent information after
-                          distinctive outsourcing. Interactively fashion
-                          excellent information after distinctive outsourcing.
-                        </p>
+                        <div className="two_column mb10">
+                          <div className="info_label">Birthdate</div>
+                          <div className="info_value">28/02/1991</div>
                         </div>
-						
-						{/* Edit Field */}
 
-						<div className="two_column mb10">
-								<div className="info_label">Birthdate</div>
-								<div  className="info_value"> <input
-                                type="text"
-                                class="form-control cust_textbox"
-                                value="28/02/1991"
-                              /></div>
-						</div>
+                        <div className="two_column mb10">
+                          <div className="info_label">Mobile</div>
+                          <div className="info_value">(124) 823409234</div>
+                        </div>
 
-						<div className="two_column mb10">
-								<div className="info_label">Mobile</div>
-								<div  className="info_value"> <input
-                                type="text"
-                                class="form-control cust_textbox"
-                                value="(124) 823409234"
-                              /></div>
-						</div>
+                        <div className="two_column mb10">
+                          <div className="info_label">Email</div>
+                          <div className="info_value">samuel@mydomain.co</div>
+                        </div>
 
-						<div className="two_column mb10">
-								<div className="info_label">Email</div>
-								<div  className="info_value"> <input
-                                type="text"
-                                class="form-control cust_textbox"
-                                value="samuel@mydomain.com"
-                              /></div>
-						</div>
+                        <div className="two_column mb10">
+                          <div className="info_label">Website</div>
+                          <div className="info_value">www.testweb.com</div>
+                        </div>
 
-						<div className="two_column mb10">
-								<div className="info_label">Website</div>
-								<div  className="info_value"> <input
-                                type="text"
-                                class="form-control cust_textbox"
-                                value="www.testweb.com"
-                              /></div>
-						</div>
+                        <div className="profile-info no_pad">
+                          <h4 className="heading">About</h4>
+                          <p>
+                            Interactively fashion excellent information after
+                            distinctive outsourcing. Interactively fashion
+                            excellent information after distinctive outsourcing.
+                          </p>
+                        </div>
+
+                        {/* Edit Field */}
+
+                        <div className="two_column mb10">
+                          <div className="info_label">Birthdate</div>
+                          <div className="info_value">
+                            {" "}
+                            <input
+                              type="text"
+                              class="form-control cust_textbox"
+                              value="28/02/1991"
+                            />
+                          </div>
+                        </div>
+
+                        <div className="two_column mb10">
+                          <div className="info_label">Mobile</div>
+                          <div className="info_value">
+                            {" "}
+                            <input
+                              type="text"
+                              class="form-control cust_textbox"
+                              value="(124) 823409234"
+                            />
+                          </div>
+                        </div>
+
+                        <div className="two_column mb10">
+                          <div className="info_label">Email</div>
+                          <div className="info_value">
+                            {" "}
+                            <input
+                              type="text"
+                              class="form-control cust_textbox"
+                              value="samuel@mydomain.com"
+                            />
+                          </div>
+                        </div>
+
+                        <div className="two_column mb10">
+                          <div className="info_label">Website</div>
+                          <div className="info_value">
+                            {" "}
+                            <input
+                              type="text"
+                              class="form-control cust_textbox"
+                              value="www.testweb.com"
+                            />
+                          </div>
+                        </div>
                       </div>
 
-					  <div className="profile-info">
+                      <div className="profile-info">
                         <h4 className="heading">About</h4>
 
-                          <input
-                            type="text"
-                            className="form-control form_control"
-                            value="Interactively fashion excellent information after
+                        <input
+                          type="text"
+                          className="form-control form_control"
+                          value="Interactively fashion excellent information after
 							distinctive outsourcing. Interactively fashion
 							excellent information after distinctive outsourcing."
-                          />
-                        </div>
+                        />
+                      </div>
 
                       <div className="text-center">
                         <a
