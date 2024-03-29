@@ -52,19 +52,19 @@ class Sidebar extends Component {
                       <Link to="/profile">{COMMON_CONSTS.TEXT_MY_PROFILE}</Link>
                     </li>
                     <li>
-                      <Link to="/gallery">{COMMON_CONSTS.TEXT_GALLERY}</Link>
+                      <Link to="/dashbord">{COMMON_CONSTS.TEXT_GALLERY}</Link>
                     </li>
                   </ul>
                 </div>
               </li>
               <li>
-                <Link to="/gallery">
+                <Link to="/dashbord">
                   <i className="lnr lnr-dice" />
                   <span>{COMMON_CONSTS.TEXT_GALLERY}</span>
                 </Link>
               </li>
               <li>
-                <Link to="/slider">
+                <Link to="/dashbord">
                   <i className="lnr lnr-picture" />
                   <span>{COMMON_CONSTS.TEXT_SLIDER}</span>
                 </Link>
