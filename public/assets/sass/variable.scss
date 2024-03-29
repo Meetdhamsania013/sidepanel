@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+$success: #41B314;
+$warning:  #e4cb10; 
+$danger:  #F9354C; 
+$blue:  #00AAFF;
+$dark_blue:  #337ab7;
+$myMargin: 0px auto;
+$white_color:#fff;
+$primery_color:#333333;
+$body_background:#F3F5F8;
+$common_bgcolor:#fafafa;
+$sidebar_bg:#2B333E;
+$link_color:#676a6d;
+$main_containt_bg: #f5f5fa;
+$panel_bg:$white_color;
+$disable_color:#a3a3a3;
+$navbar_toggle:#f8f8f8;
+$background_color_2: rgba(0, 0, 0, 0.2);
+
+//-------------@mixin ----------------------- 
+// Flex browser support
+// ex: %flexbox { @include flexbox; } or %inline-flex { @include inline-flex; }
+@mixin flexbox {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+@mixin inline-flex {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -moz-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+// Border
+// ex: @include border-radius(3px);
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  -ms-border-radius: $radius;
+  border-radius: $radius;
+}
+
+// Calc function 
+// ex: @include calc( width, '100% - 2px');
+@mixin calc($property, $expression) {
+  #{$property}: -webkit-calc(#{$expression});
+  #{$property}: -moz-calc(#{$expression});
+  #{$property}: -ms-calc(#{$expression});
+  #{$property}: -o-calc(#{$expression});
+  #{$property}: calc(#{$expression});
+}
+
+
+// Transition any position
+// ex: @include transition(all,0.5s,ease-out);
+@mixin transition($what: all, $time: 0.3s, $how: ease-in-out) {
+  -webkit-transition: $what $time $how;
+  -moz-transition: $what $time $how;
+  -ms-transition: $what $time $how;
+  -o-transition: $what $time $how;
+  transition: $what $time $how;
+}
+
+// Box-shadow any text
+// ex: @include box-shadow(0, 12px, 18px, rgba(0, 0, 0, 0.34), false);
+@mixin box-shadow($top, $left, $blur, $color, $inset: false) {
+  @if $inset{
+   -webkit-box-shadow: inset $top $left $blur $color;
+   -moz-box-shadow: inset $top $left $blur $color;
+   box-shadow: inset $top $left $blur $color;
+ }
+ @else {
+   -webkit-box-shadow: $top $left $blur $color;
+   -moz-box-shadow: $top $left $blur $color;
+   box-shadow: $top $left $blur $color;
+ }
+}
+
+
+
